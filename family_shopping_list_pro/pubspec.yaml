@@ -1,0 +1,26 @@
+name: family_shopping_test1
+version: 1.0.0+1
+description: لیست خرید خانواده تست1 with Firebase sync, QR pairing and push notifications.
+publish_to: none
+
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+  flutter: '>=3.41.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  firebase_messaging: ^16.7.0
+  shared_preferences: ^2.5.6
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.4.2
+  url_launcher: ^6.3.3
+
+flutter:
+  uses-material-design: true
